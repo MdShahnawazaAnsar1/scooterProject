@@ -1,0 +1,130 @@
+.header {
+  max-width: 100%;
+  max-height: 55px;
+  background-color: black;
+  color: white;
+  padding: 14px 113px 14px 171px;
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 99999;
+  font-family: poly;
+}
+.leftHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: Poly;
+  size: 22px;
+  line-height: 26.29px;
+}
+.contact {
+  margin-right: 51px;
+}
+.carrier {
+  margin-right: 51px;
+}
+.downArrow {
+  color: red;
+  position: absolute;
+  padding-top: 3px;
+}
+.subHeader {
+  font-family: poly;
+  height: 102px;
+  width: 100%;
+  background-color: #0b090a;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: 8px 0px 7px 171px;
+}
+.img3 {
+  position: absolute;
+  left: 171px;
+  top: 65px;
+}
+.img4 {
+  position: absolute;
+  left: 183px;
+  top: 76px;
+}
+.img5 {
+  position: absolute;
+  left: 193px;
+  top: 86px;
+}
+.subHeaderLeft {
+  top: 103px;
+  display: flex;
+  font-size: 22px;
+  font-weight: 400;
+  justify-content: space-between;
+}
+.About {
+  margin-right: 85px;
+}
+.About:hover {
+  border-bottom: 3px solid red;
+}
+
+.Store {
+  margin-right: 85px;
+}
+.Store:hover {
+  border-bottom: 3px solid red;
+}
+.Scooters {
+  margin-right: 65.5px;
+}
+.Assistance {
+  margin-right: 64.5px;
+} 
+.btn {
+  margin-right: 123px;
+  /* background-color: red; */
+}
+.btnDealership {
+  width: 121px;
+  height: 42px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+.btnDealership:hover {
+  background-color: white;
+  color: black;
+}
+.Arrow {
+  color: red;
+  position: absolute;
+  padding-top: 6px;
+}
+.dropDown {
+  font-family: poly;
+  width: 86.8%;
+  height: 260px;
+  background-color: #e5e5e5;
+  position: absolute;
+  top: 117px;
+  padding: 0px 100px;
+  align-items: center;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  z-index: 999;
+  font-size: 40px;
+  opacity: 1;
+}
+li {
+  opacity: 0.8;
+}
+li:hover {
+  opacity: 1;
+  border-bottom: 3px solid red;
+}
